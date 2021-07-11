@@ -31,12 +31,40 @@ header .top-line{
 
 .header--right{
     display: flex;
-    flex-direction: row;
+    align-items:center;
+}
+
+.header--search{
+    display: flex;
 }
 
 .header--search input{
     font-size: 16px;
-    padding:7px 10px;
+    padding:8px 15px;
     border: 1px solid #cccccc;
     outline:0;/*tira o efeito auto (border = black) ao clicar no campo input*/
+    width: 100%;
+    max-width:250px;
+    font-family: 'Open sans';
+    /*font-size:14px;*/
+}
+
+.header--search button{
+    border: 0;
+    background: transparent;
+    margin-left:-35px;
+}
+
+.header--search button img{
+    height:16px;
+    width:16px; 
+}
+
+.header--menu{
+    margin-left: 30px;
+}
+
+.header--menu img{
+    height:24px;
+    width:24px;
 }
