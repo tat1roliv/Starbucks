@@ -12,6 +12,7 @@ header .top-line{
     background-color: #117050;
 }
 
+/*definindo uma largura max + centralizar conteudo*/
 .container{
     max-width: 1140px;;
     margin: auto;
@@ -19,5 +20,23 @@ header .top-line{
 
 .header--area{
     display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100px;
 }
-/*header--left logo*/
+.header--left img{
+    width:  64px;
+    height: 64px;
+}
+
+.header--right{
+    display: flex;
+    flex-direction: row;
+}
+
+.header--search input{
+    font-size: 16px;
+    padding:7px 10px;
+    border: 1px solid #cccccc;
+    outline:0;/*tira o efeito auto (border = black) ao clicar no campo input*/
+}
