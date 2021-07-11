@@ -2,20 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300;1,400&family=Oswald:wght@300;400;700&display=swap');
 
+/*general*/
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+
+/*header*/
 
 header .top-line{
     height: 10px ;
     background-color: #117050;
 }
 
-/*definindo uma largura max + centralizar conteudo*/
+
 .container{
-    max-width: 1140px;;
-    margin: auto;
+    max-width: 1140px;/*definindo uma largura max + centralizar conteudo*/
+    margin: auto;/*definindo uma largura max + centralizar conteudo*/
 }
 
 .header--area{
@@ -68,3 +71,36 @@ header .top-line{
     height:24px;
     width:24px;
 }
+
+/*banner*/
+.banner{
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.banner h1{
+    font-size:90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    line-height: 90px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.banner--images{
+    margin-top: 60px;
+
+}
+
+.banner--images img{
+    width: 148px;
+    height:148px;
+    border: 4px solid #117050;
+    border-radius:50%;
+    margin-right: 40px;
+}
+
+
