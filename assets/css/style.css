@@ -248,5 +248,12 @@ header .top-line{
     background-position: left;
 }
 
+/*area5*/
 
+.area5--img1{
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+    height:600px;
+}
 
