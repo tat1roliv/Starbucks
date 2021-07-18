@@ -225,5 +225,28 @@ header .top-line{
     background-position: center;
 }
 
+/*area4*/
+
+.area4{
+    display:grid;
+    grid-template-columns: 450px 1fr;
+}
+
+.area4--content{
+    padding: 150px 80px;
+    background-color:#e8e9ee;
+}
+
+.area4--text{
+    color: rgb(45,45,45);
+    line-height:25px;
+}
+
+.area4--img1{
+    background-image: url('../images/bg3.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
 
 
