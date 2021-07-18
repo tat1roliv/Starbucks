@@ -8,17 +8,56 @@
     margin: 0;
 }
 
+.container{
+    max-width: 1140px;/*definindo uma largura max + centralizar conteudo*/
+    margin: auto;/*definindo uma largura max + centralizar conteudo*/
+}
+
+.bar{
+    width: 168px;
+    height: 22px;
+    background-color: #006341;
+}
+
+h1{
+    font-size:90px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    line-height: 90px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size:40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    margin: 0;
+    line-height: 45px;
+    margin: 20px 0px;   
+}
+.btn-link{
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 50px;
+    color: #454545;
+    border-radius:3px;
+}
+
+.btn-link:hover{
+    color: white;
+    background-color:#454545;
+
+}
+
 /*header*/
 
 header .top-line{
     height: 10px ;
     background-color: #117050;
-}
-
-
-.container{
-    max-width: 1140px;/*definindo uma largura max + centralizar conteudo*/
-    margin: auto;/*definindo uma largura max + centralizar conteudo*/
 }
 
 .header--area{
@@ -81,15 +120,6 @@ header .top-line{
     padding-bottom: 90px;
 }
 
-.banner h1{
-    font-size:90px;
-    font-family: 'Oswald', sans-serif;
-    font-weight:bold;
-    line-height: 90px;
-    margin: 0;
-    margin-bottom: 30px;
-}
-
 .banner--images{
     margin-top: 60px;
 }
@@ -101,7 +131,8 @@ header .top-line{
     border-radius:50%;
     margin-right: 40px;
 }
-/*main content*/
+/***main content***/
+
 /*area1*/
 
 .area1{
@@ -110,8 +141,18 @@ header .top-line{
 }
 
 .area1--content{
-
+    padding: 80px;
 }
+
+.area1--quote{
+    margin-bottom: 30px;
+    color:rgb(45,45,45);
+}
+
+.area1--text{
+    color: rgb(45,45,45);
+}
+
 .area1--img1{
     height:350px;
     background-image: url('../images/f2.jpg');
@@ -126,4 +167,6 @@ header .top-line{
     background-size: cover;
     background-position: center;
 }
+
+
 
